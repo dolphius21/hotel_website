@@ -97,6 +97,10 @@ img {
   padding: 20px 0;
 }
 
+.wrapper {
+  min-height: calc( 100vh - 87px );
+}
+
 .group:after {
   content: "";
   display: table;
@@ -196,9 +200,6 @@ img {
 
 /* Features */
 
-.features {
-  overflow: hidden;
-}
 .col-container {
   float: left;
   width: 33.3%;
@@ -256,6 +257,42 @@ i {
   width: 100px;
   border-radius: 50%;
   margin-right: 25px;
+}
+
+/* Contact */
+
+.contact-form p {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+.form-group textarea {
+  height: 200px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #969492;
+}
+
+.wrapper-contact {
+  min-height: calc( 100vh - 349px);
 }
 
 /* Footer */
