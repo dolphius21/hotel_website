@@ -25,6 +25,10 @@ p {
   margin: 10px 0;
 }
 
+img {
+  display: block;
+}
+
 /* Utility Classes */
 
 .container {
@@ -74,6 +78,23 @@ p {
 .bg-primary {
   background: #f7c08a;
   color: #333;
+}
+
+.l-heading {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.py-3 {
+  padding: 40px 0;
+}
+
+.py-2 {
+  padding: 30px 0;
+}
+
+.py-1 {
+  padding: 20px 0;
 }
 
 .group:after {
@@ -189,7 +210,58 @@ i {
   margin-bottom: 20px;
 }
 
-.main-footer {
-  padding: 20px;
+/* About */
+
+.about-content {
+  float: left;
+  width: 60%;
+}
+
+.about-img-container {
+  float: right;
+  width: 40%;
+  height: 100%;
+}
+
+.about-img {
+  width: 70%;
+  min-height: 100%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+/* Testimonials */
+
+.testimonials {
+  background: url(../img/test-bg.jpg) no-repeat center/cover;
+  height: 600px;
+  padding-top: 80px;
+}
+
+.testimonials h2{
+  color: #fff;
   text-align: center;
+  margin: 20px 0;
+}
+
+.testimonial {
+  margin-bottom: 40px;
+  border-radius: 5px;
+  padding: 20px;
+  opacity: 0.9;
+}
+
+.testimonial img {
+  float: left;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+/* Footer */
+
+.main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
 }
